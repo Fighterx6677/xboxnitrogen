@@ -43,7 +43,7 @@ def logo():
     choice = int(input("[?]: "))
     if choice == 1:
         codeLen = 24
-        letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+        letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyz"
         lp = int(input("Enter The Number Of Unchecked xbox nitros You Need: "))
         k = open('xboxcodes.txt', 'w')
         for i in range(lp):
